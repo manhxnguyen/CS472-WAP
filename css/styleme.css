@@ -45,3 +45,34 @@ ol > li > a{
 .validator>p {
     margin-right: 25px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.intro::first-letter {
+    font-size: 1.5em;
+}
+
+.blue-title > ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+dl {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+dt.yellow-highlight {
+    font-weight: bold;
+    color: yellow;
+}
+
+dd {
+    margin-left: 1em;
+}
