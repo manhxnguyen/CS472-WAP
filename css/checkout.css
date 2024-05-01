@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 16px 32px;
+}
+
+.header img {
+    height: 40px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome, .logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list, .cart, .place-order {
+    padding: 16px 64px;
+}
+
+.place-order {
+    display: flex;
+    justify-content: right;
+}
+
+.place-order button {
+    background-color: #339ceb;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.total {
+    text-align: left;
+    font-size: 20px;
+}
+
+.product-list button {
+    background-color: #63d367;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.product-list button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+.cart button {
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.cart button.decrease {
+    background-color: #f44336;
+}
+
+.cart button.decrease:hover {
+    background-color: #9e0909;
+}
+
+.cart button.increase {
+    background-color: #63d367;
+}
+
+.cart button.increase:hover {
+    background-color: #45a049;
+}
+
+.quantity {
+    display: flex;
+    justify-content: flex-start;
+}
