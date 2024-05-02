@@ -1,0 +1,145 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #A2CBBC;
+}
+
+.header div:first-child {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header div:last-child {
+    margin-left: 16px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.body-form {
+    padding: 16px 32px;
+    display: flex;
+}
+
+.left-form, .right-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 16px;
+}
+
+.right-form {
+    padding-left: 32px;
+}
+
+.part-form {
+    display: flex;
+    flex-direction: row;
+    margin: 16px 0;
+    align-items: center;
+}
+
+.left-input {
+    width: 40%;
+}
+
+.right-input {
+    width: 60%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+a {
+    color: #0C0C0C;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label > a {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.checkbox-list label {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.select-option {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+.place-button {
+    text-align: center;
+}
+
+.place-button button {
+    border: none;
+    background-color: #A2CBBC;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.payment-mode {
+    align-items: unset;
+}
+
+.checkbox-list {
+    width: 100%;
+}
+
+.validator {
+    padding: 16px 32px;
+    display: inline-flex;
+}
+
+.validator > p {
+    margin-right: 25px;
+}

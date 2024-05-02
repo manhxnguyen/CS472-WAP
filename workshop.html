@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop</title>
+    <link rel="stylesheet" href="./css/workshop.css">
+</head>
+<body>
+    <main>
+        <div class="header">
+            <div>Workshop Registration</div>
+            <div>More Actions</div>
+        </div>
+        <form action="">
+            <div class="body-form">
+                <div class="left-form">
+                    <label for="first_name" class="part-form"><a href="javascript:void(0);">Register now while seats are available!</a></label>
+
+                    <div class="part-form">
+                        <label for="first_name" class="left-input">First Name</label>
+                        <input type="text" class="right-input" name="first_name" id="firstName" required>
+                    </div>
+                   
+                    <div class="part-form">
+                        <label for="last_name" class="left-input">Last Name</label>
+                        <input type="text" class="right-input" name="last_name" id="lastName" required>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="company" class="left-input">Company/Institution</label>
+                        <input type="text" class="right-input" name="company" id="company" required>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="address" class="left-input">Address</label>
+                        <textarea id="address" name="address" rows="4" cols="50">
+                        </textarea>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="city" class="left-input">City</label>
+                        <input type="text" class="right-input" name="city" id="city" required>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="state" class="left-input">State</label>
+                        <select class="right-input select-option" name="state" id="state" required>
+                            <option value="">Select an option</option>
+                            <option value="state1">State 1</option>
+                            <option value="state2">State 2</option>
+                            <option value="state3">State 3</option>
+                        </select>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="email" class="left-input">Email</label>
+                        <input type="email" class="right-input" name="email" id="email" required>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="phone" class="left-input">Phone</label>
+                        <input type="tel" class="right-input" name="phone" id="phone" required>
+                    </div>
+                    
+                    <div class="part-form">
+                        <label for="country" class="left-input">Country</label>
+                        <select class="right-input select-option" name="country" id="country" required>
+                            <option value="">Select an option</option>
+                            <option value="country1">Country 1</option>
+                            <option value="country2">Country 2</option>
+                            <option value="country3">Country 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="right-form">
+                    <label for="lunch" class="part-form"><a href="javascript:void(0);">Lunch</a></label>
+
+                    <div class="part-form">
+                        <label for="meal" class="left-input">Meal Preference</label>
+                        <select class="right-input select-option" name="meal" id="meal" required>
+                            <option value="meal1">Vegetarian</option>
+                            <option value="meal2">Meat</option>
+                        </select>
+                    </div>
+                    
+
+                    <label for="payment" class="part-form"><a href="javascript:void(0);">Payment Details</a></label>
+
+                    <div class="part-form payment-mode">
+                        <label for="paymentmode" class="left-input">Payment Mode</label>
+                        <div class="checkbox-list">
+                            <div>
+                                <input type="checkbox" id="cash" name="cash" value="cash">
+                                <label for="cash"> Cash</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="cheque" name="cheque" value="cheque">
+                                <label for="cheque"> Cheque</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="demandCraft" name="demand_craft" value="demand_craft">
+                                <label for="demand_craft"> Demand Craft</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="part-form">
+                        <label for="cheque_no" class="left-input">DD/Cheque No.</label>
+                        <input type="text" name="cheque_no" id="chequeNo" required>
+                    </div>
+
+                    <div class="part-form">
+                        <label for="bank_name" class="left-input">Drawn On (Bank Name)</label>
+                        <input type="text" class="right-input" name="bank_name" id="bankName" required>
+                    </div>
+
+                    <div class="part-form">
+                        <label for="payable_at" class="left-input">Payable at</label>
+                        <input type="text" class="right-input" name="payable_at" id="payableAt" required>
+                    </div>
+                </div>
+            </div>
+            <div class="place-button">
+                <button type="submit" class="submit-button">Register</button>
+                <button class="reset-button">Reset</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="validator">
+            <p>
+                <a
+                    href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmanhxnguyen.github.io%2FCS472-WAP%2Fcheckout.html">
+                    <img src="./images/htmlchecker.png" alt="html validator" width="150" height="50">
+                </a>
+            </p>
+    
+            <p>
+                <a
+                    href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmanhxnguyen.github.io%2FCS472-WAP%2Fcheckout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                    <img src="./images/css_checker.png" alt="css validator" width="150" height="50">
+                </a>
+            </p>
+        </div>
+    </footer>     
+</body>
+</html>
