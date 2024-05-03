@@ -20,7 +20,7 @@
 }
 
 .header div:last-child {
-    margin-left: 16px;
+    margin-left: 32px;
     font-weight: normal;
     font-size: 14px;
 }
@@ -142,4 +142,22 @@ label > a {
 
 .validator > p {
     margin-right: 25px;
+}
+
+.more-actions {
+    position: relative;
+    padding-right: 15px;
+}
+
+.more-actions::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    transform: translateY(-50%);
 }
