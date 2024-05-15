@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  
+  "scripts": {
+    "start": "set PORT=3000 && set NODE_ENV=development && nodemon app.js",
+    "dev": "set PORT=3000 && set NODE_ENV=development && nodemon app.js",
+    "production": "set PORT=3000 && set NODE_ENV=production && nodemon app.js"
+  }
+}
