@@ -1,0 +1,38 @@
+# Get all books
+GET http://localhost:3000/books
+
+###
+
+# Create a new book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Title 1",
+  "ISBN": "123-456-789",
+  "publishedDate": "15-05-2024",
+  "author": "Author Name"
+}
+
+###
+
+# Get a single book by ID
+GET http://localhost:3000/books/1
+
+###
+
+# Update a book
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Updated Title 1",
+  "ISBN": "987-654-321",
+  "publishedDate": "15-05-2025",
+  "author": "Updated Author Name"
+}
+
+###
+
+# Delete a book
+DELETE http://localhost:3000/books/1
